@@ -1,6 +1,9 @@
 body {
     background-image: url('./360_F_501523654_iTeRiR15SpnekpBQCWf11sip7THqF5oU.jpg');
     background-color: bisque;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: ;
 }
 h1 {
     background-color: beige;
