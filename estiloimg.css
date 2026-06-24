@@ -1,16 +1,13 @@
 body {
     background-image: url('./360_F_501523654_iTeRiR15SpnekpBQCWf11sip7THqF5oU.jpg');
     background-color: bisque;
-    background-repeat: repeat-y;
-    background-position: center;
-    background-attachment: ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
 }
 h1 {
     background-color: beige;
 }
 p {
     background-color: blanchedalmond;
-}
-figure {
-    background-color: aqua;
 }
