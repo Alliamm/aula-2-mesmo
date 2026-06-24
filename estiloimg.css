@@ -1,3 +1,13 @@
 body {
+    background-image: url('./360_F_501523654_iTeRiR15SpnekpBQCWf11sip7THqF5oU.jpg');
     background-color: bisque;
+}
+h1 {
+    background-color: beige;
+}
+p {
+    background-color: blanchedalmond;
+}
+figure {
+    background-color: aqua;
 }
