@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #E3E7E7
+}
+h1 {
+  font-size: 5rem;
+  color: #F7FAF9;
+    background: rgba(12, 27, 36, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(141, 184, 178, 0.15);
+}
+h2 {
+  font-size: 1.5em;
+  color: #D6E4E3;
+    background: rgba(12, 27, 36, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(141, 184, 178, 0.15);
+}
+p {
+    font-size: 12px;
+}
+body {
+    background:linear-gradient(135deg,
+#05070B,
+#0F1A23,
+#294B57,
+#6A8D8B,
+#E9F1EE
+);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
