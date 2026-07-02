@@ -1,0 +1,55 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #474747;
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: 0 auto ;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+}
+.class {
+    background-color: white;
+}
+img {
+    width: 30px;
+    height: 30px;
+}  
+.Libertadores { 
+    text-align: left;
+   color: rgb(0, 0, 152);
+   background-color: #ebfaff;
+}
+#container {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.Pre-Libertadores {
+   color: #029c9c;
+   background-color: lightcyan
+   text-align: left;
+}
+.Sul-americana {
+    color: #234e23;
+    background-color: #ebffeb;
+    text-align: left;
+    }
+.Rebaixamento {
+    color: #ae3737;
+    background-color: #ffe9e9;
+    text-align: ;
+}
+th {
+   background-color: rgb(237, 237, 237);
+}
+tr:hover {
+    background-color: rgb(237, 237, 237);
+}

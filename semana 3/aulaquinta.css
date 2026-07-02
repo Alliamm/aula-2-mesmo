@@ -1,0 +1,21 @@
+#container {
+    margin: 0 auto;
+    width: 80%;
+}
+#container iframe {
+    display: block;
+    
+}
+table, th, td {
+    border-collapse: collapse;
+	background-color: darkblue;
+	color: white;
+	border: 3px solid white;
+	border-radius: 60px;
+	padding: 10px;
+	height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+	}
