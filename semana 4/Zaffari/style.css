@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.container {
+    font-family: Segoe UI,sans-serif;
+	color: #1a5036;
+    display: grid;
+    grid-template-areas:    
+                        "Horario"
+                        "Logo"
+                        "MenuNav"
+                        "Banner"
+                        "Principal"
+                        "Rodapé";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100vw;
+}
+#Horario {
+    grid-area: Horario;
+    background-color: #ccc;
+    height: 25px;
+    text-align: left;
+    padding: auto;
+}
+#Logo {
+    grid-area: Logo;
+    background-color: #ffffff;
+    height: 78px;
+    padding: 10px;
+    text-align: center;
+}
+header#Logo img {
+    height: 75px;
+}
+#MenuNav {
+    grid-area: MenuNav;
+    background-color: #008454;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+header#Banner img {
+    grid-area: Banner;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+#Principal {
+    grid-area: Principal;
+    padding: 10px;
+    text-align: center;
+}
+#Rodapé {
+    grid-area: Rodapé;
+    background-color: #000000;
+    height: 36px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
